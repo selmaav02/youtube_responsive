@@ -120,7 +120,7 @@
     height: 100%;
     padding: 15px 15px;
     border-top: 1px solid #ddd;
-    overflow-y: scroll;
+    overflow-y:auto;
   }
   
   .video-container {
@@ -128,6 +128,7 @@
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+
   }
   
   .video {
